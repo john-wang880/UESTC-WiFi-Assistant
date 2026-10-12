@@ -1,0 +1,43 @@
+plugins { id 'com.android.application' }
+android {
+    namespace 'cn.edu.uestc.wifiassistant'
+    compileSdk 35
+    defaultConfig {
+        applicationId 'cn.edu.uestc.wifiassistant'
+        minSdk 26
+        targetSdk 35
+        versionCode 50000
+        versionName '5.0.0'
+        testInstrumentationRunner 'cn.edu.uestc.wifiassistant.DeviceChecks'
+    }
+    def keyPath = System.getenv('UESTC_STORE_FILE')
+    if (keyPath) {
+        signingConfigs {
+            localRelease {
+                storeFile file(keyPath)
+                storePassword System.getenv('UESTC_STORE_PASSWORD')
+                keyAlias 'uestc-wifi'
+                keyPassword System.getenv('UESTC_KEY_PASSWORD')
+            }
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            if (keyPath) signingConfig signingConfigs.localRelease
+        }
+        debug {
+            if (keyPath) signingConfig signingConfigs.localRelease
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+    lint { abortOnError true; checkReleaseBuilds true }
+    testOptions { unitTests.returnDefaultValues = false }
+}
+dependencies {
+    testImplementation 'junit:junit:4.13.2'
+    testImplementation 'org.json:json:20240303'
+}

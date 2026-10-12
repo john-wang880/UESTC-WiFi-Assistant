@@ -1,0 +1,27 @@
+# Local Android / Gradle files
+.gradle/
+.local/
+.idea/
+**/build/
+local.properties
+*.iml
+.externalNativeBuild/
+.cxx/
+
+# Credentials, signing material and local evidence
+*.jks
+*.keystore
+*.p12
+*.pem
+*.clixml
+signing.properties
+.env
+.env.*
+/work/
+/outputs/
+/TestingReport.txt
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,52 @@
+[
+  {
+    "username": "202600000000@dx",
+    "password": "Test!Pass123",
+    "token": "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef",
+    "ip": "10.20.10.99",
+    "acid": "3",
+    "hmac": "505f6938aabf51874a805af7e79f3141",
+    "info": "{SRBX1}v6Tr66oXlQy7D1liV5AliA/kRJ57dmFxYno3jOOHC9u0NWnRL8xNnizHTms3wLJ8bjX7CNd7kw6k3BNHQCBT6Vvl/bCqzC2+jaqzzEBKkG/daGY70KwkgETVkSixNJNBkqsx471eUvYih6gqItxYkS==",
+    "checksum": "0f37c03dba19c4161ddeac4f2426f510020ffa22"
+  },
+  {
+    "username": "202600000000@cmcc",
+    "password": "p a s\"\\=+/",
+    "token": "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef",
+    "ip": "10.20.10.99",
+    "acid": "3",
+    "hmac": "402a8e173f60b64d0acff161f4bcb973",
+    "info": "{SRBX1}E7rAFUhkkGXBL2zmk9M3WYRid6kUulxQ0ZrfO9JSAvCN56RqDyDJE5DumL0wGwpWwXN0qd5k7/2ryin/Gfzkc4oFaNhWKQivlKLK7vkfwOe05p9hCY20b6RkDppWyFEqFF4yfsdJvawCnWPn2iVFBreMmBt=",
+    "checksum": "d555b0ff3dfaa5d89c53fb94cd18253c2e3f9b40"
+  },
+  {
+    "username": "202600000000@dx",
+    "password": "汉字密码😀",
+    "token": "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef",
+    "ip": "10.20.10.99",
+    "acid": "3",
+    "hmac": "f945d3f94f65f16ffb4d28f2569c46fe",
+    "info": "{SRBX1}RMzOuUBiG9Yf75P/F6ckBDH7C27rPdAXvtIZ+K9oAy1Ld3+jhrzA4aIR7HEFJXYTX41+1ZpJXDT57FXY9w10f+ufTvP3TGCjaevbqpeMNSxTI3hv7+0L9FqJ6N2r13yDmy93NHJF8vnjZdg3",
+    "checksum": "91213ee3944875fbf8b31658e203f563c3456e9b"
+  },
+  {
+    "username": "202600000000@cmcc",
+    "password": " leading and trailing ",
+    "token": "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef",
+    "ip": "10.20.10.99",
+    "acid": "3",
+    "hmac": "e7a758c84a5d075977eb7bb6191df099",
+    "info": "{SRBX1}5SFiUJPtKxXSKDSZMnPgMZlrHoxjEKXqYxlw4JjxxYa3+S5P8zQry/4ekWMsX6wa8A5gqhOe/2XxqvEPqDww3/paeBjKt8ZkMLx9PyeeTK1S+oLKDU60VensZ/AQ1SrFOT24lOBwtm0AFagN4gvlDIaiN0dtddwNCs/2LS==",
+    "checksum": "c882c17fcd950d47c37f24bc96b4365ebe0c89c9"
+  },
+  {
+    "username": "202600000000@dx",
+    "password": "",
+    "token": "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef",
+    "ip": "10.20.10.99",
+    "acid": "3",
+    "hmac": "12b7df856574be74a29fa124bd70e85d",
+    "info": "{SRBX1}3sxUh89yj4RkB2bRSHVDzbtHfj+oxKddxZw5KwM6+rprwcs3ovG27L8a4145gZoynTXhCcqarmv2Unt7iz4vBuiLXydnFYyTYzinh/b6HwCF8xNaE9NoHuo1bzRGmsnT3itnwL==",
+    "checksum": "096e6f725bc7862abce136a735233985fdcf2bbe"
+  }
+]

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">成电 Wi-Fi 认证助手</string>
+    <string name="owner_consent">我是账号持有人，同意本机在 Xiaomi_181A 上使用此账号认证，并已了解下方安全说明。</string>
+    <string name="status_pill">●  %1$s</string>
+</resources>

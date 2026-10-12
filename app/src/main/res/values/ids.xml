@@ -1,0 +1,7 @@
+<resources>
+    <item name="wifi_name" type="id"/><item name="status_title" type="id"/><item name="status_detail" type="id"/>
+    <item name="main_button" type="id"/><item name="settings_button" type="id"/><item name="official_button" type="id"/>
+    <item name="wifi_button" type="id"/><item name="account_input" type="id"/><item name="password_input" type="id"/>
+    <item name="owner_consent" type="id"/><item name="operator_spinner" type="id"/><item name="save_button" type="id"/>
+    <item name="clear_button" type="id"/><item name="ac_input" type="id"/><item name="auto_switch" type="id"/>
+</resources>
